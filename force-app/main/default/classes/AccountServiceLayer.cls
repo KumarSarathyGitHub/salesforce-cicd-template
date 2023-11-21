@@ -133,7 +133,9 @@ public with sharing class AccountServiceLayer {
             throw new ASLException(nae.getMessage());
         }
     }
-    // Some example Account code goes here.
+    /** 
+    * @description Creates a default account object. Demonstrates a simple usage of the Account object
+    */
     public static Account createDefaultAccount() {
         Account acct = new Account();
         acct.Name = 'Default Account';
