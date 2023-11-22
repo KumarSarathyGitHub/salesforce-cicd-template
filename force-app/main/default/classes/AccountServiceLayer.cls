@@ -135,6 +135,7 @@ public with sharing class AccountServiceLayer {
     }
     /** 
     * @description Creates a default account object. Demonstrates a simple usage of the Account object
+    * Adding a second line to the comment section
     */
     public static Account createDefaultAccount() {
         Account acct = new Account();
